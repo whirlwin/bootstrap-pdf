@@ -22,4 +22,4 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 4. Convert the file to PDF
 >     rake haml
 
-5. This produces a file called cv.pdf.
+This produces a file called cv.pdf.
