@@ -18,6 +18,11 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 >     bundle
 
 ### 3. Make a Haml file called cv.haml, and give it some content.
+    %html
+      %head
+      %body
+        .container
+          %h1 Hey there
 
 ### 4. Convert the file to PDF
 >     rake haml
