@@ -6,6 +6,7 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 
 ## Requirements
 
+- Git
 - Ruby 1.9.3
 
 
