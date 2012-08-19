@@ -1,8 +1,7 @@
 require 'haml'
 require 'pdfkit'
 
-# Haml to PDF
-task :htp do
+task :haml do
   files = Dir.glob '**/*.haml'
 
   case files.length
