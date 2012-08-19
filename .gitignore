@@ -1,0 +1,4 @@
+cv.haml
+Gemfile.lock
+*.pdf
+*.swp
