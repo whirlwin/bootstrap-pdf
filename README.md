@@ -11,15 +11,15 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 
 ## Getting started
 
-Clone the repository:
+1. Clone the repository:
 >     git clone git@github.com:whirlwin/bootstrap-cv.git
 
-Fetch all necessary gems:
+2. Fetch all necessary gems:
 >     bundle
 
-Make a Haml file called cv.haml, and give it some content.
+3. Make a Haml file called cv.haml, and give it some content.
 
-Convert the file to PDF
+4. Convert the file to PDF
 >     rake haml
 
-This produces a file called cv.pdf.
+5. This produces a file called cv.pdf.
