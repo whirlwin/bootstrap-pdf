@@ -13,7 +13,7 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 ## Getting started
 
 ### 1. Clone the repository:
->     git clone git@github.com:whirlwin/bootstrap-cv.git
+>     git clone git@github.com:whirlwin/bootstrappdf.git
 
 ### 2. Fetch all necessary gems:
 >     bundle
