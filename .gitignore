@@ -1,5 +1,5 @@
-cv.haml
 Gemfile.lock
+*.haml
 *.jpg
 *.pdf
 *.swp

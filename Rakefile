@@ -18,10 +18,6 @@ task :haml do
         kit.stylesheets << file
       end
 
-      kit.to_file 'cv.pdf'
+      kit.to_file 'out.pdf'
   end
-end
-
-task :test do
-  puts Haml::Engine.new(IO.read 'cv.haml').render
 end

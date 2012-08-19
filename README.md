@@ -1,6 +1,6 @@
-# Bootstrap CV
+# BootstrapPDF
 
-Bootstrap CV is a handy tool for creating good looking and well structured CVs
+BootstrapPDF is a handy tool for creating good looking and well structured PDFs
 using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 
 
@@ -18,7 +18,7 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 ### 2. Fetch all necessary gems:
 >     bundle
 
-### 3. Make a Haml file called cv.haml, and give it some content.
+### 3. Make a Haml file called foo.haml, and give it some content.
     %html
       %head
       %body
@@ -28,4 +28,4 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 ### 4. Convert the file to PDF
 >     rake haml
 
-This produces a file called cv.pdf.
+This produces the file out.pdf.
