@@ -18,7 +18,7 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 ### 2. Fetch all necessary gems:
 >     bundle
 
-### 3. Make a Haml file called foo.haml, and give it some content.
+### 3. Create a file called foo.haml in the project, and give it some content.
     %html
       %head
       %body
