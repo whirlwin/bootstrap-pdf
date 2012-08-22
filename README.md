@@ -8,10 +8,18 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 
 - Git
 - Ruby 1.9.3
-  - wkhtmltopdf (Have a look at [Installing wkhtmltopdf](https://github.com/pdfkit/pdfkit/wiki/Installing-WKHTMLTOPDF)
+  - wkhtmltopdf ([Installing wkhtmltopdf](https://github.com/pdfkit/pdfkit/wiki/Installing-WKHTMLTOPDF))
 
 
 ## Getting started
 
 ### 1. Install the Gem
     gem install bootstrappdf
+
+### 2. Usage
+    bootstrappdf foo.haml
+
+Will create a file called out.pdf
+
+#### Specifying custom stylesheets (path to look)
+    bootstrap foo.haml -s .
