@@ -8,24 +8,10 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 
 - Git
 - Ruby 1.9.3
+  - wkhtmltopdf (Have a look at [Installing wkhtmltopdf](https://github.com/pdfkit/pdfkit/wiki/Installing-WKHTMLTOPDF)
 
 
 ## Getting started
 
-### 1. Clone the repository:
->     git clone git@github.com:whirlwin/bootstrappdf.git
-
-### 2. Fetch all necessary gems:
->     bundle
-
-### 3. Create a file called foo.haml in the project, and give it some content.
-    %html
-      %head
-      %body
-        .container
-          %h1 Hey there
-
-### 4. Convert the file to PDF
->     rake haml
-
-This produces the file out.pdf.
+### 1. Install the Gem
+    gem install bootstrappdf
