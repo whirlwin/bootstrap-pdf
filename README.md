@@ -17,6 +17,18 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
     gem install bootstrappdf
 
 ### 2. Usage
+
+#### Make a file with some content
+    echo "
+      !!!5
+      %html
+        %head
+        %body
+          .container
+            .page-header
+              %h1 Hey there
+    "
+
     bootstrappdf foo.haml
 
 Will create a file called out.pdf
