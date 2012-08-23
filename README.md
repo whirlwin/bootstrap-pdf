@@ -1,6 +1,6 @@
-# BootstrapPDF
+# bootstrap-pdf
 
-BootstrapPDF is a handy tool for creating good looking and well structured PDFs
+bootstrap-pdf is a handy tool for creating good looking and well structured PDFs
 using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 
 
@@ -14,7 +14,7 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 ## Getting started
 
 ### 1. Install the Gem
-    gem install bootstrappdf
+    gem install bootstrap-pdf
 
 ### 2. Usage
 
@@ -33,9 +33,9 @@ Inside the file:
 
 #### Run it!
 
-    bootstrappdf foo.haml
+    bootstrap-pdf foo.haml
 
 Will generate a file called out.pdf
 
 #### Specifying custom stylesheets (path to look)
-    bootstrap foo.haml -s .
+    bootstrap-pdf foo.haml -s .

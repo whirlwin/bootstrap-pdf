@@ -2,6 +2,6 @@
 
 IO.write 'Gemfile', nil
 
-require 'bootstrappdf'
+require 'bootstrap-pdf'
 
 File.delete 'Gemfile'

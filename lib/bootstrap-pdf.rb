@@ -13,7 +13,7 @@ end
 options = {}
 
 opt_parser = OptionParser.new do |opt|
-  opt.banner = 'Usage: bootstrappdf COMMAND [OPTIONS]'
+  opt.banner = 'Usage: bootstrap-pdf COMMAND [OPTIONS]'
   opt.separator ''
   opt.separator 'Commands'
   opt.separator '     foo.haml: converts foo.haml to a PDF'
