@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://github.com/whirlwin/bootstrappdf'
   s.add_dependency 'haml'
   s.add_dependency 'pdfkit'
-  s.files       = Dir.glob('{bin,lib}/**/*')
+  s.files       = Dir.glob('{bin,lib,res}/**/*')
   s.executables << 'bootstrappdf'
 end

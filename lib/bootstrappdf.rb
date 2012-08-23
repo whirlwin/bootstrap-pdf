@@ -37,7 +37,7 @@ begin
     kit = PDFKit.new send("convert_#{File.extname(ARGV[0])[1..-1]}", ARGV[0])
 
     Dir.glob(File.join File.dirname(File.expand_path __FILE__),
-                       'res/bootstrap/css/*.css').each do |file|
+                       '../res/bootstrap/css/*.css').each do |file|
       kit.stylesheets << file
     end
 
