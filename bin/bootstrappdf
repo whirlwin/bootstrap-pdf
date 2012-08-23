@@ -1,3 +1,7 @@
 #!/usr/bin/ruby
 
+IO.write 'Gemfile', nil
+
 require 'bootstrappdf'
+
+File.delete 'Gemfile'
