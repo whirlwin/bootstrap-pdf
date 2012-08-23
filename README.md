@@ -21,8 +21,8 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 #### Make a file with some content
     touch foo.haml
 
-    / Showing foo.haml
 
+    / Showing foo.haml
     !!!5
     %html
       %head
