@@ -19,15 +19,19 @@ using [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 ### 2. Usage
 
 #### Make a file with some content
-    echo "
-      !!!5
-      %html
-        %head
-        %body
-          .container
-            .page-header
-              %h1 Hey there
-    "
+    touch foo.haml
+
+    / Showing foo.haml
+
+    !!!5
+    %html
+      %head
+      %body
+        .container
+          .page-header
+            %h1 Hey there
+
+#### Run it!
 
     bootstrappdf foo.haml
 
