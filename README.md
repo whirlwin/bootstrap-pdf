@@ -35,7 +35,7 @@ Inside the file:
 
     bootstrappdf foo.haml
 
-Will create a file called out.pdf
+Will generate a file called out.pdf
 
 #### Specifying custom stylesheets (path to look)
     bootstrap foo.haml -s .
