@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'bootstrap-pdf'
-  s.version     = '0.0.7'
+  s.version     = '0.0.8'
   s.date        = '2012-08-21'
   s.summary     = 'Twitter Bootstrap PDF creation tool'
   s.description = <<-END
