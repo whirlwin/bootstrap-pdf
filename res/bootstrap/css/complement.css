@@ -6,10 +6,11 @@
 }
 
 .unit .row {
+  line-height:   20pt;
   margin-top:    15px;
   margin-bottom: 15px;
 }
 
-.row img {
+.unit .row img {
   width: 70%;
 }
