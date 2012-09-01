@@ -1,7 +1,9 @@
 #!/usr/bin/ruby
 
-IO.write 'Gemfile', nil
+exists = File.file? 'Gemfile'
+
+IO.write 'Gemfile', nil unless exists
 
 require 'bootstrap-pdf'
 
-File.delete 'Gemfile'
+File.delete 'Gemfile' unless exists
